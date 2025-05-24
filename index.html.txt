@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BERAT TELEKOM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>📱 BERAT TELEKOM</h1>
+    <nav>
+      <a href="#urunler">Ürünler</a>
+      <a href="#hakkimizda">Hakkımızda</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>BERAT TELEKOM - Güvenilir Telefon ve Aksesuar Mağazası</h2>
+    <p>En uygun fiyatlarla cihaz alım-satım ve aksesuar çeşitleriyle hizmetinizdeyiz. Bursa Yıldırım'da sizleri bekliyoruz!</p>
+  </section>
+
+  <section id="urunler" class="gallery">
+    <h2>Öne Çıkan Ürünler</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="telefon1.jpg" alt="iPhone 13" />
+        <h3>iPhone 13</h3>
+        <p>Sıfır & 2. El Seçenekleri</p>
+      </div>
+      <div class="card">
+        <img src="aksesuar1.jpg" alt="Kablosuz Şarj" />
+        <h3>Kablosuz Şarj</h3>
+        <p>Hızlı şarj destekli</p>
+      </div>
+      <div class="card">
+        <img src="aksesuar2.jpg" alt="Kılıflar" />
+        <h3>Telefon Kılıfları</h3>
+        <p>Renkli ve dayanıklı modeller</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="hakkimizda">
+    <h2>Hakkımızda</h2>
+    <p><strong>BERAT TELEKOM</strong>, Bursa Yıldırım'da telefon ve aksesuar sektöründe güvenilir bir isimdir. 10 yılı aşkın tecrübemizle sıfır ve ikinci el telefonlar, her model için aksesuarlar ve teknik destek hizmeti sunuyoruz.</p>
+  </section>
+
+  <section id="iletisim">
+    <h2>İletişim</h2>
+    <ul>
+      <li>📞 Telefon: 0551 043 52 70</li>
+      <li>📍 Adres: Sudeposu Cd. No:70/B, Yıldırım / Bursa</li>
+      <li>📸 Instagram: <a href="#">@berattelekom</a></li>
+    </ul>
+
+    <h3>Konumumuz:</h3>
+    <div style="width:100%;max-width:600px;height:300px;margin-top:10px;">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.165594980703!2d29.112685115334014!3d40.195345979393796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca3fe9649f5dd5%3A0x7f2c1fd178118d4e!2sSudeposu%20Cd%20No%3A70%2FB%2C%20Y%C4%B1ld%C4%B1r%C4%B1m%2F%20Bursa!5e0!3m2!1str!2str!4v1716553189359!5m2!1str!2str"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 BERAT TELEKOM. Tüm hakları saklıdır.</p>
+  </footer>
+
+  <a href="https://wa.me/905510435270" class="whatsapp-button" target="_blank" title="WhatsApp ile mesaj gönder">
+    💬 Bize WhatsApp'tan yaz!
+  </a>
+
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: #fff;
+  margin-left: 1.5rem;
+  text-decoration: none;
+}
+
+.hero {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.gallery {
+  padding: 2rem;
+}
+
+.grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+section {
+  padding: 2rem;
+}
+
+footer {
+  background: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 1rem;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
